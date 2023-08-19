@@ -1,36 +1,19 @@
-import java.util.Random;
+import random
 
-public class RandomArrayExample {
-    public static void main(String[] args) {
-        int arraySize = 10;
-        int[] randomArray = generateRandomArray(arraySize);
-        
-        System.out.println("Random Array:");
-        for (int num : randomArray) {
-            System.out.print(num + " ");
-        }
-        
-        double average = calculateAverage(randomArray);
-        System.out.println("\nAverage: " + average);
-    }
-    
-    public static int[] generateRandomArray(int size) {
-        int[] array = new int[size];
-        Random random = new Random();
-        
-        for (int i = 0; i < size; i++) {
-            array[i] = random.nextInt(100); // Generates random integers between 0 and 99
-        }
-        
-        return array;
-    }
-    
-    public static double calculateAverage(int[] array) {
-        int sum = 0;
-        for (int num : array) {
-            sum += num;
-        }
-        
-        return (double) sum / array.length;
-    }
-}
+def generate_random_list(size, min_value, max_value):
+    random_list = [random.randint(min_value, max_value) for _ in range(size)]
+    return random_list
+
+def calculate_sum(numbers):
+    total = sum(numbers)
+    return total
+
+size = 10
+min_value = 1
+max_value = 100
+
+random_numbers = generate_random_list(size, min_value, max_value)
+print("Random Numbers:", random_numbers)
+
+sum_of_numbers = calculate_sum(random_numbers)
+print("Sum of Numbers:", sum_of_numbers)
