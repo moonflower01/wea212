@@ -6,7 +6,6 @@
       <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&width=435&lines=console.log(%22Hello%2C%20World%22);小孙同学祝您今天愉快!&center=true&size=27" alt="Typing SVG" />
     </a>
   <img src个人资料徽标 -->
-    <a href="https://blog.sunguoqi.com/"><img src="https://img.shields.io/badge/Website-博客-blue" /></a>&emsp;
     <a href="https://twitter.com/sun0225SUN/"><img src="https://img.shields.io/badge/Twitter-推特-blue" /></a>&emsp;
     <a href="https://www.youtube.com/@sun0225SUN"><img src="https://img.shields.io/badge/YouTube-油管-c32136" /></a>&emsp;
     <a href="https://box.sunguoqi.com/weixin_mp"><img src="https://img.shields.io/badge/WeChat-微信-07c160" /></a>&emsp;
